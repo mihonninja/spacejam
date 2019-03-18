@@ -67,6 +67,7 @@ class Meteor extends EventEmitter
       args.push(['--test-app-path'], options["test-app-path"]) if options["test-app-path"]
       args.push(['--full-app']) if options["full-app"]
     else if command is 'test-packages'
+      args.push(['--test-app-path'], options["test-app-path"]) if options["test-app-path"]
       if options.packages.length > 0
         packagesToTest = @_globPackages(options.packages)
         expect(packagesToTest).to.have.length.above 0

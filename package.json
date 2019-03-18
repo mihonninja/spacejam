@@ -1,7 +1,8 @@
 {
   "name": "@mihon/spacejam",
-  "version": "1.6.1.1",
+  "version": "1.6.2",
   "dependencies": {
+    "cake": "^0.1.1",
     "chai": "1.9.2",
     "glob": "4.0.6",
     "loglevel": "1.1.0",

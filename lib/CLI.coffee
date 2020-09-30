@@ -1,5 +1,5 @@
 require './log'
-fs = require("fs")
+fs = require("graceful-fs")
 path = require("path")
 _ = require("underscore")
 expect = require("chai").expect
